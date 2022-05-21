@@ -165,11 +165,7 @@ export default class updateCamping extends Component{
     } 
 
    
-    /*onChangepassword(e){
-        this.setState({
-            password : e.target.value
-        });
-    }*/
+    
     
     onItemQtyChanged(rowid,qty){
         if(qty>20){
