@@ -1,0 +1,48 @@
+
+.Sidenav nav {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #000204;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white !important;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+li a{
+
+    display:block;
+  
+    color: rgb(255, 255, 255);
+  
+    margin:10px 40px;
+  
+    padding: 5px 5px 20px 20px;
+  
+    transition: 0.5s;
+  
+    text-decoration: none;
+  
+  }
+  ul{
+
+    list-style-type: none;
+  
+    margin: 10px 15px 10px 15px;
+  
+    padding: 0;
+  
+    overflow: hidden;
+  
+    background-color: #0f3c3edc;
+  
+    border-radius: 20px;
+  }
+  
